@@ -1,0 +1,44 @@
+
+{
+  "name": "stockmaster-pro-ai",
+  "version": "1.0.0",
+  "description": "Système ERP Expert pour Windows",
+  "main": "main.js",
+  "author": "StockMaster Team",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --windows"
+  },
+  "dependencies": {
+    "lucide-react": "^0.562.0",
+    "recharts": "^3.6.0",
+    "qrcode.react": "^3.1.0",
+    "@google/genai": "^1.35.0"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.stockmaster.pro",
+    "productName": "StockMaster Pro AI",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "artifactName": "${productName}_Setup_${version}.${ext}"
+    },
+    "files": [
+      "**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "StockMaster Pro AI - Entreprise Edition",
+  "description": "Système ERP Expert Offline-First : Gestion de stocks, CRM, Facturation et Sauvegarde Locale.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

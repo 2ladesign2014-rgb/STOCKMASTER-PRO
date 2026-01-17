@@ -1,0 +1,18 @@
+
+{
+  "name": "StockMaster Pro AI",
+  "short_name": "StockMaster",
+  "description": "Système ERP Expert Offline-First : Gestion de stocks, CRM et Facturation.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2897/2897785.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
